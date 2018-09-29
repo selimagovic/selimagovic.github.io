@@ -1,0 +1,322 @@
+body {
+  font-family: 'Open Sans', serif;
+  padding-top: 54px;
+  color: #868e96;
+}
+
+a
+{
+	color:#E8E8E8;
+}
+a:hover, a:focus, a:active {
+  color: #E8E8E8;
+}
+.nav-link{
+	color:#72DDD1;
+}
+ul{
+	text-transform: uppercase;
+}
+li:hover
+{
+	color: #E8E8E8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform: uppercase;
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;  
+  color: #92F4B8;
+}
+.bg-primary
+{
+	background-color: #0d0d0d !important;
+}
+.text-primary {
+	text-transform: uppercase;
+  color: #B7E1DD !important;
+}
+.nav-link
+{
+	color: #B7E1DD!important;
+}
+a:hover,a:focus,a:active
+{
+	color: #ffffff!important;
+}
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem;
+}
+.list-social-icons a {
+  color: #495057;
+}
+
+.list-social-icons a:hover {
+  color: #BD5D38;
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+
+.list-icons {
+  font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: #BD5D38;
+}
+
+@media (min-width: 992px) 
+{
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+@media (min-width: 992px) 
+{
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.15rem solid #B7E1DD;
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+section.resume-section
+{
+	border-bottom: 0.05rem solid #B7E1DD;
+	padding-top: 5rem !important;
+  	padding-bottom: 5rem !important;
+}
+
+.-about
+{
+  background: url("../img/rozaje01.jpg") no-repeat bottom center scroll;
+}
+.-experience
+{
+  background: url("../img/montenegro.jpg") no-repeat bottom center scroll;
+}
+.-education
+{
+  background: url("../img/Montenegro_beach.png") no-repeat bottom center scroll;
+}
+.-skills
+{  
+  background: url("../img/Montenegro1.jpg") no-repeat bottom center scroll;
+}
+.-projects
+{  
+  
+}
+.-interests
+{  
+  background: url("../img/kotor.png") no-repeat bottom center scroll;
+}
+.-contact
+{  
+  background: url("../img/svetistefan.jpg") no-repeat bottom center scroll;
+}
+.-certificates
+{
+  background: url("../img/Montenegro2.jpg") no-repeat bottom center scroll;
+}
+.backgroundImg
+{
+    display: table;
+  width: 100%;
+  height: 100vh;
+  text-align: left;
+  color: white;
+
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.btn-primary
+{
+	Color:#000;
+	background-color:#85e085;
+	width: 50%;
+	border-color:#007bff;
+}
+.form-control
+{
+	font-size: 22px;
+	background: transparent;
+	border: none;
+	border-bottom:1px solid #dee2e6;
+	color: #B7E1DD !important;
+	opacity: 1;
+}
+.my-auto-contact
+{
+  margin: auto;
+
+}
+.form-control:focus{
+
+	background: transparent;
+	color:#B7E1DD;
+	box-shadow:0 0 0 .25rem rgba(0,123,255,.25);
+
+}
+#contact body
+{
+	text-align: center;
+}
+input[type=text] ,input[type=email]{
+    -webkit-transition: width 0.6s ease-in-out;
+    transition: width 0.6s ease-in-out;
+}
+
+input[type=text]:focus,input[type=email]:focus {
+    width: 75%;
+}
+label
+{
+	color: #92F4B8;
+}
+
+.contact-text
+{
+  color: #00FFFF;
+}
+img
+{
+  background-size: 100px;
+}
+/*
+// portfolio poup up
+.portfolio-modal .portfolio-modal-dialog {
+  padding: 3rem 1rem;
+  min-height: calc(100vh - 2rem);
+  margin: 1rem calc(1rem - 8px);
+  position: relative;
+  z-index: 2;
+  -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button i {
+  line-height: 38px;
+}
+
+.portfolio-modal .portfolio-modal-dialog h2 {
+  font-size: 2rem;
+}
+
+.portfolio {
+  margin-bottom: -15px;
+}
+
+.portfolio .portfolio-item {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 15px;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background-color: rgba(24, 188, 156, 0.9);
+}
+
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 1;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .portfolio-modal .portfolio-modal-dialog {
+    min-height: 100vh;
+    padding: 5rem;
+    margin: 3rem calc(3rem - 8px);
+  }
+  .portfolio-modal .portfolio-modal-dialog h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio {
+    margin-bottom: -30px;
+  }
+  .portfolio .portfolio-item {
+    margin-bottom: 30px;
+  }
+}*/
